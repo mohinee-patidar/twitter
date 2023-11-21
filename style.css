@@ -1,0 +1,105 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@600;700&family=Lato:wght@700&family=Roboto+Slab:wght@500&family=Roboto:wght@400;700&display=swap');
+  
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Baloo Bhaijaan 2', sans-serif;
+font-family: 'Lato', sans-serif; */
+font-family: 'Roboto', sans-serif;
+/* font-family: 'Roboto Slab', serif; */
+}
+.container{
+    
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    /* padding: 2rem; */
+}
+.left{
+    height: 100%;
+    width:50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left img{
+  font-size: 30px;
+  height: 40%;
+  width:40%;
+  /* margin-top: 200px;
+  margin-left: 25%;
+ */
+}
+.right{
+    height: 100%;
+    width: 50%;
+  
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 1rem;
+    padding: 2rem;
+}
+.button{
+    width: 40%;
+    padding: 0.8rem;
+    border-radius: 25px;
+    border: 1px solid #b1aeae;
+    margin: 0.3rem; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button span{
+    font-size:0.9rem;
+    margin-left: 0.7rem;
+    font-weight: 500;
+}
+
+.right h1{
+    font-size: 5rem;
+    margin-bottom: 2.5rem;
+}
+.lower{
+    margin: 2rem 0 2rem 0;
+    display: flex;
+    flex-direction: column;
+   
+    /* padding: 1rem; */
+}
+.heading2{
+    font-size: 2rem;
+    margin: 1rem 0 1rem 0;
+}
+.icon{
+    width: 15px;
+}
+.txt{
+    width: 40%;
+    font-size: 0.88rem;
+}
+.txt a{
+    text-decoration: none;
+}
+#lower-btn{
+    background-color: #1D9bF0;
+    color: white;
+    font-weight: 400;
+}
+.separator {
+    display: flex;
+    align-items: center;
+    
+
+
+}
+#or{
+    margin: 0 5px 0 5px;
+}
+.border{
+    border-top: 0.6px solid #cfcbcb;
+    width: 130px;
+}
